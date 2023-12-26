@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page 4</title>
+    <link rel="stylesheet" href="css/style4.css">
+</head>
+<body>
+    <header>
+        <h1>Contacts</h1>        
+    </header>
+    <div class="d1">
+        <nav>
+            <h2>NAVIGATION</h2>
+            <div class="d4">
+                <!--iconne du menu burger-->
+                <div class="menu-icon" id="menu-icon">
+                    <div class="ligne"></div> <!-- pour dessiner le menu burger-->
+                    <div class="ligne"></div> 
+                    <div class="ligne"></div> 
+                    
+                </div>
+                <!--menu de navigation-->
+                <ul class="menu" id="menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index2.html">Les caracteristiques des chèvres</a></li>
+                    <li><a href="index3.html">Adopter une chèvre</a></li>
+                    <li><a href="index4.html">Contact</a></li>
+                    <li><a href="index5.html">Nos chèvres</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    <main>
+        <div class="formulaire">
+            <form action="">
+                <h1>Formulaire de contact</h1>
+                <div class="d6">
+                    <label for="prenom">Prenom</label> 
+                    <input type="text" id="prenom"> 
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom">
+                </div>
+                <div class="d7">
+                    <label for="mail">Adresse mail</label>
+                    <input type="email" id="mail" class="mail">
+                </div>
+                
+                <fieldset class="objet">
+                    <legend>Objet du message</legend>
+                    <select name="" id="objet"> 
+                        <option value="adopter">Adopter une chevre</option>
+                        <option value="probleme">Probleme avec le site</option> 
+                        <option value="informations">Informations complementaires</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </fieldset>
+                <fieldset class="messageF"> 
+                    <label for="message">Message</label>
+                    <input type="text" id="message" class="message">
+                </fieldset>
+                <label for="Reset"></label>
+                <input type="reset" id="reset" class="bouton">
+                <input type="submit" id="bt" class="bouton">
+            </form>
+        </div>
+    </main>
+    </div>
+    <footer>
+        <h2>Contacts, informations</h2>
+        <div class="d5">
+            <p>Email : leschevres4life@gmail.com</p>
+            <p>Instagram : Goats4ever</p>
+            <p>Twitter : GoatsAreTheBest</p>
+            <button>dark mode</button>
+        </div>
+    </footer>
+
+    <script src="script4.js"></script>
+</body>
+</html>

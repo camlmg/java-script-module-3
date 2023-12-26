@@ -1,0 +1,190 @@
+header{
+    background-color: rgb(180, 220, 176);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    height: 8vh;
+    margin-bottom: 1%;
+}
+nav{
+    background-color: rgb(180, 220, 176);
+    width: 15vw;
+    height: 48vw;
+    display: flex;
+    flex-direction: column;
+    line-height: 250%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0.5%;
+    margin-right: 0.5%;
+}
+
+a{
+    text-align: left;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color: rgb(180, 220, 176);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 23vh;
+    width: 99vw;
+    line-height: 1%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    text-align: justify;
+    margin: 1%;
+}
+
+.d1{
+    display: flex;
+    flex-direction: row;
+}
+
+.s1{
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.s2{
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+
+
+h2{
+    color: #fff;
+}
+
+.d4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px; /*marge interieur de l'element*/
+    background-color:rgb(180, 220, 176);
+}
+
+.menu-icon{
+    cursor: pointer; 
+}
+
+.ligne{
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.menu li {
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 1px;
+    width: 15%;
+    background-color:rgb(180, 220, 176);
+    margin: O.5%;
+}
+
+
+
+@media screen and (max-width: 1024px){ 
+
+    header{
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+    
+    nav{
+        width: 95vw;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        font-size: small;
+        margin: 0%;
+    }
+
+    .d2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0%;
+    }
+
+    .h1{
+        margin: 0%;
+    }
+
+    .d1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        width: 95vw;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    a{
+        margin: 2%;
+    }
+
+    p{
+        margin: 2%;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    p{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    footer{
+        height: 17%;
+    }
+    .h2{
+        margin-bottom: 5%;
+    }
+    
+}
